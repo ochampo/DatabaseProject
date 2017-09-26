@@ -1,0 +1,138 @@
+create table NASDQ15 (
+Date text NOT NULL,
+open  intger NOT NULL,
+high intger NOT NULL,
+low  intger NOT NULL,
+closed intger NOT NULL,
+Volume  integer NOT NULL,
+adj integer NOT NULL,
+id    text NOT NULL
+
+);
+
+
+create table NASDQ16 (
+Date text NOT NULL,
+open  intger NOT NULL,
+high intger NOT NULL,
+low  intger NOT NULL,
+closed intger NOT NULL,
+Volume  integer NOT NULL,
+adj integer NOT NULL,
+id    integer NOT NULL
+
+);
+
+
+create table DowJones15 (
+Date text NOT NULL,
+open  intger NOT NULL,
+high intger NOT NULL,
+low  intger NOT NULL,
+closed intger NOT NULL,
+Volume  integer NOT NULL,
+adj integer NOT NULL,
+id    integer NOT NULL
+
+);
+
+create table DowJones16 (
+Date text NOT NULL,
+open  intger NOT NULL,
+high intger NOT NULL,
+low  intger NOT NULL,
+closed intger NOT NULL,
+Volume  integer NOT NULL,
+adj integer NOT NULL,
+id    integer NOT NULL
+
+);
+
+
+create table SP50015 (
+Date text NOT NULL,
+open  intger NOT NULL,
+high intger NOT NULL,
+low  intger NOT NULL,
+closed intger NOT NULL,
+Volume  integer NOT NULL,
+adj integer NOT NULL,
+id    integer NOT NULL
+
+);
+
+create table SP50016 (
+Date text NOT NULL,
+open  intger NOT NULL,
+high intger NOT NULL,
+low  intger NOT NULL,
+closed intger NOT NULL,
+Volume  integer NOT NULL,
+adj integer NOT NULL,
+id    integer NOT NULL
+
+);
+
+
+
+create table  NYSE15 (
+Date text NOT NULL,
+open  intger NOT NULL,
+high intger NOT NULL,
+low  intger NOT NULL,
+closed intger NOT NULL,
+Volume  integer NOT NULL,
+adj integer NOT NULL,
+id    integer NOT NULL
+
+);
+
+create table NYSE16 (
+Date text NOT NULL,
+open  intger NOT NULL,
+high intger NOT NULL,
+low  intger NOT NULL,
+closed intger NOT NULL,
+Volume  integer NOT NULL,
+adj integer NOT NULL,
+id    integer NOT NULL
+
+);
+
+create table Work (
+year text NOT NULL,
+jan  integer NOT NULL,
+feb intger NOT NULL,
+mar  intger NOT NULL,
+ap intger NOT NULL,
+may  integer NOT NULL,
+june integer NOT NULL,
+july intger NOT NULL,
+aug  intger NOT NULL,
+sept  intger NOT NULL,
+oct intger NOT NULL,
+nov  integer NOT NULL,
+dec    integer NOT NULL,
+id    text NOT NULL
+
+);
+
+
+
+.separator ","
+
+
+.import data/NASDAQ2015.csv NASDQ15 
+.import data/NASDAQ2016.csv NASDQ16 
+.import data/DJI2015.csv DowJones15
+.import data/DJI2016.csv DowJones16
+.import data/S&P2015.csv SP50015
+.import data/S&P2016.csv SP50016
+.import data/NYSE2015.csv NYSE15
+.import data/NYSE2016.csv NYSE16
+.import data/rate20082016.csv Work
+
+
+
+
+

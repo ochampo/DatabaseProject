@@ -1,0 +1,9 @@
+\select@language {english}
+\contentsline {section}{\numberline {0.1}Introduction}{2}
+\contentsline {section}{\numberline {0.2}Data Collection}{2}
+\contentsline {section}{\numberline {0.3}Tables and schemas}{2}
+\contentsline {section}{\numberline {0.4} Software}{3}
+\contentsline {section}{\numberline {0.5}The Queries}{4}
+\contentsline {section}{\numberline {0.6}Our Discovery}{6}
+\contentsline {section}{\numberline {0.7}Challenges and Final Thought}{7}
+\contentsline {section}{References}{8}
